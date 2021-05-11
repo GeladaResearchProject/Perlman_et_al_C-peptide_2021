@@ -216,7 +216,7 @@ fig3b
 
 
 ## Fig 3ab final
-fig3ab <- ggarrange(fig4, fig3, ncol=2, nrow=1, 
+fig3ab <- ggarrange(fig3a, fig3b, ncol=2, nrow=1, 
                     legend = "top", labels = c("A", "B"), 
                     vjust = 1.5, hjust = -0.2, 
                     font.label = list(size = 16, color = "black", face = "bold"),
